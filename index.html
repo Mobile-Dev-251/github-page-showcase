@@ -1,31 +1,41 @@
-<!DOCTYPE html>
-<!--
-	Solid State by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE HTML>
+<html lang="vi">
   <head>
-    <title>Solid State by HTML5 UP</title>
+    <title>Lê Đình Nghĩa - Developer</title>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="Lê Đình Nghĩa - Developer đam mê công nghệ, luôn tìm tòi học hỏi và xây dựng những sản phẩm có giá trị." />
+
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/avatar.jpg" type="image/jpeg">
+    <style>
+      .avatar-img {
+        width: 160px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid rgba(255,255,255,0.9);
+        box-shadow: 0 0 40px rgba(80, 120, 255, 0.6);
+        object-fit: cover;
+        transition: all 0.4s ease;
+      }
+      .avatar-img:hover {
+        transform: scale(1.08);
+        box-shadow: 0 0 60px rgba(80, 120, 255, 0.9);
+      }
+    </style>
   </head>
+
   <body class="is-preload">
-    <!-- Page Wrapper -->
     <div id="page-wrapper">
+
       <!-- Header -->
       <header id="header" class="alt">
-        <h1><a href="index.html">Smart Debt</a></h1>
-        <nav>
-          <a href="#menu">Menu</a>
-        </nav>
+        <h1><a href="index.html">Lê Đình Nghĩa</a></h1>
+        <nav><a href="#menu">Menu</a></nav>
       </header>
 
       <!-- Menu -->
@@ -33,9 +43,14 @@
         <div class="inner">
           <h2>Menu</h2>
           <ul class="links">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#banner">Trang chủ</a></li>
+            <li><a href="#overview">Giới thiệu</a></li>
+            <li><a href="#education">Học Vấn</a></li>
+            <li><a href="#skills">Kỹ năng</a></li>
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
           </ul>
-          <a href="#" class="close">Close</a>
+          <a href="#" class="close">Đóng</a>
         </div>
       </nav>
 
@@ -43,157 +58,110 @@
       <section id="banner">
         <div class="inner">
           <div class="logo">
-            <span class="icon fa-dollar-sign"></span> Nhắc nhẹ, nhớ lâu – Giữ
-            tình bạn, không quên nợ!
+            <img src="images/avatar.jpg" alt="Lê Đình Nghĩa" class="avatar-img" />
           </div>
-          <h2>Smart Debt</h2>
-          <p>
-            ỨNG DỤNG NHẮC NỢ TỰ ĐỘNG
-            <span>(L02 - MobileDev)</span>
-          </p>
+          <h2>Lê Đình Nghĩa</h2>
+          <p>Full Stack Developer • Mobile Developer • Tech Enthusiast</p>
+          <ul class="actions special">
+            <li><a href="#overview" class="button primary">Xem thêm về mình</a></li>
+          </ul>
         </div>
       </section>
 
       <!-- Wrapper -->
       <section id="wrapper">
-        <!-- One -->
-        <section id="one" class="wrapper spotlight style1">
+
+        <!-- Giới thiệu -->
+        <section id="overview" class="wrapper spotlight style1">
           <div class="inner">
-            <a href="#" class="image"><img src="images/goal1.jpg" alt="" /></a>
+            <a href="#" class="image"><img src="images/goal1.jpg" alt="Giới thiệu" /></a>
             <div class="content">
-              <h2 class="major">
-                Quản lý vay nợ cá nhân một cách thông minh và minh bạch
-              </h2>
-              <p>
-                SmartDebt giúp người dùng ghi chép, theo dõi và nhắc nợ tự động
-                với bạn bè, người thân hoặc đối tác một cách rõ ràng. Mọi khoản
-                vay – mượn đều được hiển thị trực quan, giúp hạn chế quên nợ,
-                nhầm lẫn hoặc tranh cãi không đáng có. Ứng dụng hướng đến việc
-                tạo thói quen quản lý tài chính có trách nhiệm trong đời sống
-                hàng ngày.
-              </p>
+              <h2 class="major">Về Tôi</h2>
+              <p>Tôi là một lập trình viên đam mê công nghệ, luôn tìm tòi học hỏi và xây dựng những sản phẩm có giá trị thực sự cho người dùng.</p>
+              <p>Mục tiêu của tôi là được áp dụng những kiến thức đã học vào các dự án thực tế, đóng góp vào sự phát triển của sản phẩm và không ngừng phát triển bản thân trong ngành lập trình.</p>
+              <p>Tôi tin rằng với sự nhiệt huyết và tinh thần ham học hỏi, tôi có thể nhanh chóng thích nghi và tạo ra giá trị.</p>
             </div>
           </div>
         </section>
 
-        <!-- Two -->
-        <section id="two" class="wrapper alt spotlight style2">
+        <!-- Học Vấn và Hoạt Động -->
+        <section id="education" class="wrapper alt spotlight style2">
           <div class="inner">
-            <a href="#" class="image"><img src="images/goal2.jpg" alt="" /></a>
+            <a href="#" class="image"><img src="images/goal2.jpg" alt="Học Vấn" /></a>
             <div class="content">
-              <h2 class="major">
-                Đơn giản hóa trải nghiệm – phù hợp với sinh viên và người trẻ
-              </h2>
-              <p>
-                SmartDebt được thiết kế với giao diện thân thiện, dễ thao tác
-                chỉ trong vài bước. Người dùng không cần hiểu sâu về tài chính
-                vẫn có thể quản lý hiệu quả các khoản vay nhỏ, chia tiền ăn,
-                tiền học hoặc tiền nhóm. Mục tiêu của chúng tôi là giúp sinh
-                viên tiếp cận tài chính cá nhân theo cách nhẹ nhàng và dễ hiểu
-                nhất.
-              </p>
+              <h2 class="major">Học Vấn và Hoạt Động</h2>
+
+              <h3>Trường Đại học Bách Khoa - đại học quốc gia Tphcm <span style="font-weight:300;font-size:0.9em;color:#aaa">(2022 – 2026)</span></h3>
+              <p>• <strong>Chuyên ngành:</strong> Computer Science<br>
+
+              <h3>Hoạt Động Nổi Bật</h3>
+              <p>• Đồng Tác giả và Báo cáo viên tại Hội thảo Khoa học Quốc gia về Kinh tế, Luật và Chính sách Công nghệ số (2025) với công trình nghiên cứu về khung pháp lý AI quốc tế (EU AI Act) và các Giải pháp Công nghệ Đột phá cho Việt Nam<br>
+                • Có kinh nghiệm vững chắc trong quản lý dự án theo Agile/Scrum, được chứng nhận bởi Axon Active (2025)</p>
             </div>
           </div>
         </section>
 
-        <!-- Three -->
-        <section id="three" class="wrapper spotlight style3">
+        <!-- Kỹ năng -->
+        <section id="skills" class="wrapper spotlight style3">
           <div class="inner">
-            <a href="#" class="image"><img src="images/goal3.jpg" alt="" /></a>
+            <a href="#" class="image"><img src="images/goal3.jpg" alt="Kỹ năng" /></a>
             <div class="content">
-              <h2 class="major">
-                Nền tảng kết nối đáng tin cậy trong các giao dịch vay–mượn
-              </h2>
-              <p>
-                Ngoài chức năng cá nhân, SmartDebt hướng tới việc xây dựng cộng
-                đồng người dùng có uy tín, nơi mỗi giao dịch được ghi nhận minh
-                bạch, có xác nhận song phương và lưu trữ lịch sử rõ ràng. Đây là
-                bước đầu để hướng đến một hệ sinh thái tín nhiệm cá nhân trong
-                môi trường sinh viên – điều kiện nền tảng cho tài chính số sau
-                này.
-              </p>
+              <h2 class="major">Kỹ Năng & Công Nghệ</h2>
+              <p><strong>Frontend:</strong> React, Next.js, Vue.js, TypeScript, TailwindCSS, Material-UI</p>
+              <p><strong>Backend:</strong> Node.js, Express, NestJS, Python, Django, FastAPI</p>
+              <p><strong>Mobile:</strong> React Native</p>
+              <p><strong>Database:</strong> PostgreSQL, MongoDB, MySQL</p>
+              <p><strong>DevOps & Tools:</strong> Docker, AWS, Vercel, Git, GitHub Actions, Linux</p>
             </div>
           </div>
         </section>
 
-        <!-- Four -->
-        <section id="four" class="wrapper alt style1">
+        <!-- Dự án -->
+        <section id="projects" class="wrapper alt style1">
           <div class="inner">
-            <h2 class="major">Tính năng chính</h2>
+            <h2 class="major">Dự Án Nổi Bật</h2>
             <section class="features">
               <article>
-                <a href="#" class="image"
-                  ><img src="images/fea1.jpg" alt=""
-                /></a>
-                <h3 class="major">Ghi nhanh khoản nợ</h3>
-                <p>Tạo ghi chú nợ chỉ trong vài giây.</p>
+                <a href="#" class="image"><img src="images/pic01.jpg" alt="Smart Debt" /></a>
+                <h3 class="major">Smart Debt – App Nhắc Nợ Thông Minh</h3>
+                <p>React Native • Node.js • PostgreSQL • Push Notification</p>
               </article>
               <article>
-                <a href="#" class="image"
-                  ><img src="images/fea2.jpg" alt=""
-                /></a>
-                <h3 class="major">Nhắc lịch tự động</h3>
-                <p>Hệ thống gửi thông báo trước hạn trả.</p>
+                <a href="#" class="image"><img src="images/pic02.jpg" alt="E-Commerce" /></a>
+                <h3 class="major">E-Commerce Platform</h3>
+                <p>Next.js 14 • Stripe • Prisma • PostgreSQL • Vercel</p>
               </article>
               <article>
-                <a href="#" class="image"
-                  ><img src="images/fea3.jpg" alt=""
-                /></a>
-                <h3 class="major">Quản lý nợ nhóm</h3>
-                <p>Tạo nhóm để chia sẽ các khoản chi tiêu.</p>
+                <a href="#" class="image"><img src="images/pic03.jpg" alt="Chat App" /></a>
+                <h3 class="major">Real-time Chat + Video Call</h3>
+                <p>React • Socket.io • WebRTC • Node.js</p>
               </article>
               <article>
-                <a href="#" class="image"
-                  ><img src="images/pic07.jpg" alt=""
-                /></a>
-                <h3 class="major">Theo dõi & thống kê</h3>
-                <p>Biểu đồ thống kê biểu diễn tình hình chi tiêu.</p>
+                <a href="#" class="image"><img src="images/pic07.jpg" alt="Dashboard" /></a>
+                <h3 class="major">Analytics Dashboard</h3>
+                <p>React • D3.js • Express • MongoDB</p>
               </article>
             </section>
           </div>
         </section>
-      </section>
 
-      <!-- Footer -->
-      <section id="footer">
-        <div class="inner">
-          <h2 class="major">Công nghệ sử dụng</h2>
-          <!-- <form method="post" action="#">
-            <div class="fields">
-              <div class="field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
-              </div>
-              <div class="field">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" />
-              </div>
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="4"></textarea>
-              </div>
-            </div>
-            <ul class="actions">
-              <li><input type="submit" value="Send Message" /></li>
+        <!-- Footer / Liên hệ -->
+        <section id="contact" class="wrapper style1">
+          <div class="inner">
+            <h2 class="major">Liên Hệ Với Mình</h2>
+            <ul class="contact">
+              <li class="icon solid fa-envelope"><a href="mailto:lenghia004094@gmail.com">lenghia004094@gmail.com</a></li>
+              <li class="icon brands fa-github"><a href="https://github.com/NghiaxLee51" target="_blank">https://github.com/NghiaxLee51</a></li>
+              <li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/ngh%C4%A9a-l%C3%AA-%C4%91%C3%ACnh-067271256/" target="_blank">linkedin.com/in/ledinhnghia</a></li>
+              <li class="icon solid fa-phone">(+84) 835 182 302</li>
             </ul>
-          </form> -->
-          <ul class="contact">
-            <li class="icon brands fa-react">
-              <h2>Frontend: ReactJS</h2>
-            </li>
-            <li class="icon brands fa-node"><h2>Backend: NodeJS</h2></li>
-            <li class="icon solid fa-database">
-              <h2>Database: PostgreSQL</h2>
-            </li>
-            <li class="icon brands fa-cloud">
-              <h2>Cloud: Firebase / AWS</h2>
-            </li>
-          </ul>
-          <ul class="copyright">
-            <li>&copy; Untitled Inc. All rights reserved.</li>
-            <li>Design: <a href="#">L02 - MobileDev</a></li>
-          </ul>
-        </div>
+            <ul class="copyright">
+              <li>&copy; 2025 Lê Đình Nghĩa. All rights reserved.</li>
+              <li>Design: <a href="https://html5up.net">HTML5 UP</a> – Việt hóa & tối ưu 2025</li>
+            </ul>
+          </div>
+        </section>
+
       </section>
     </div>
 
